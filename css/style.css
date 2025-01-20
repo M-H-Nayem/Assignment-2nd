@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.full-body{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+.full-body{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* navigation style */
+.navigation-bar{
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-part {
+    display: flex;
+    gap: 11px;
+   
+}
+.left-img{
+    width: 62px;
+    height: 62px;
+    margin: 20px 0 0 0;
+}
+.left-h1{
+    color: rgb(17, 17, 17);
+
+font-size: 32px;
+font-weight: 700;
+
+}
+.middle-part {
+    display: flex;
+   
+    gap: 32px;
+   
+}
+.mid-h1{
+    color: rgb(254, 163, 1);
+font-size: 20px;
+font-weight: 500;
+}
+.mid-h2{
+    color: rgb(1, 172, 253);
+font-size: 20px;
+font-weight: 500;
+}
+.mid-h3{
+    color: rgb(5, 212, 223);
+font-size: 20px;
+font-weight: 500;
+}
+.mid-h4{
+    color: rgb(93, 88, 239);
+font-size: 20px;
+font-weight: 500;
+}
+
+.right-part {
+    /* display: flex; */
+   
+}
+.rt-b{
+    width: 197px;
+height: 50px;
+border: none;
+    border-radius: 12px;
+background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 600;
+}
+.rt-img{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+/* first section style */
+
+.first-sec{
+display: flex;
+justify-content: space-between;
+gap: 50px;
+}
+.first-div{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.fst-h1{
+    font-size: 56px;
+    font-weight: 700;
+   
+}
+.sp-1{
+    color: rgb(254, 163, 1);
+}
+.sp-2{
+    color: rgb(1, 172, 253);
+}
+.fst-p{
+   
+    color: rgb(17, 17, 17);
+
+font-size: 20px;
+font-weight: 400;
+margin-top: 0;
+}
+.fst-b{
+    width: 197px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .full-body{
+        width: 90%;
+    }
+    .nav{
+        border-bottom: 1px solid orange;
+    }
+
+    .middle-part{
+        display: none;
+    }
+    .rt-img{
+        display: flex;
+    }
+    .rt-b{
+        display: none;
+    }
+    .first-sec{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .fst-h1,.fst-p{
+       margin: 0;
+       margin-bottom: 30px;
+        text-align:center;
+    }
+    
+    .first-div{
+        flex-direction: column;
+        align-items: center;
+    }
+}
