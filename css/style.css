@@ -370,7 +370,7 @@ font-weight: 500;
   border: none;
   border-radius: 47.93px;
   position: relative;
-  top: -18px;
+  top: -5px;
   margin-bottom: 0px;
 }
 .trd-rt-h{
@@ -579,7 +579,7 @@ width: 100%;
 }
 .trd-rt-btn{
   position: relative;
-  top: 5px;
+  top: 0px;
 }
 .trd-rt-h{
   position: relative;
