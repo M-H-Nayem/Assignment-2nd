@@ -12,6 +12,24 @@
   width: 1440px;
   margin: 0 auto;
 }
+.mar{
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+marquee{
+ 
+  background-color: orange;
+  height: 30px;
+ color: antiquewhite;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+
+
+
 
 /* navigation style */
 .nav {
