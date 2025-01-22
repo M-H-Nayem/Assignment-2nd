@@ -532,6 +532,12 @@ margin-top: 0px;
   .rt-b {
     display: none;
   }
+  .left-img{
+    margin-bottom: 20px;
+  }
+  .left-h1{
+    display: none;
+  }
 
 /* first edit */
   .fst-div-1{
